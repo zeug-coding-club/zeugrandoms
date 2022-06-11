@@ -14,6 +14,9 @@ function reversefactorial(n){
     product *=numstart
     if (product==n){
       break
+    }else if(product>n){
+      console.log("M has no reverse factorial!")
+      break
     }
   }
   return "M: "+ numstart
