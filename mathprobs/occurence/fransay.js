@@ -5,12 +5,17 @@ syntax a %b where a and b are integer constants.
 */
 
 
-function occur(digit){
-  numberoftime = 0
+function occur(number, digit){
+  let numberoftimes = 0
+  let arr =  Array.from(number.toString())
 
+  // loop through the array and grab compared
+  for (let i=0; i<=arr.length; i++){
+
+    if (arr[i] == digit) {
+      numberoftimes = numberoftimes +1 
+    }
+  }
   return numberoftimes
-
 }
-
-
-
+console.log(occur(111111111123344, 1))
