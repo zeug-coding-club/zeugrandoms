@@ -1,7 +1,5 @@
-/*
-Without using the division (/) devise a computer solution that can be used to m goes into n as well as the remainder. 
-The values for m and n will be read as inputs.
-*/ 
+/*Without using the division (/) devise a computer solution that can be used to m goes into n as well as the remainder. 
+The values for m and n will be read as inputs.*/ 
 
 
 function div(m,n){
@@ -23,7 +21,6 @@ function div(m,n){
     constantcount++
   }
 }
-
 
 console.log(div(100,5))
 
