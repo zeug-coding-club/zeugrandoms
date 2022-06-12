@@ -6,4 +6,9 @@ Without using the division (/) devise a computer solution that can be used to m 
 
 
 # REVERSED FACTORIAL
-Given a positive integer, N, devise a computer solution that can be used to find another integer M whose factorial is N. For example if N is given as 720 then M should be 6. 
+Given a positive integer, N, devise a computer solution that can be used to find another integer M whose factorial is N. For example if N is given as 720 then M should be 6.
+
+
+# BASE OF A NUMBER 
+Given that a % b will give the remainder when a is divided by b, write a detailed computer solution that can be used to convert a number in base 10 to a different base. The inputs to your computer solution should be a number in base 10 and a base the number is to be converted to.
+ 
