@@ -13,4 +13,4 @@ Given a positive integer, N, devise a computer solution that can be used to find
 Given that a % b will give the remainder when a is divided by b, write a detailed computer solution that can be used to convert a number in base 10 to a different base. The inputs to your computer solution should be a number in base 10 and a base the number is to be converted to.
  
  # NUMBER OF DAYS 
-Create a function that takes two dates and returns the number of days between the first and second date.
+Create a function that takes two dates and returns the number of days between the first and second date.For example, inputs of "June 10 2022" and "June 15 2020" ouputs 5 as the number of days between them.
