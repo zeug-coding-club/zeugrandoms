@@ -3,34 +3,14 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println(base(2342,2))
+	fmt.Println(Base(10,3))
 }
 
-func base(n int, b int)([]int,int){
-	Remainders := []int{}
-	R_Remainders := []int{}
-
-	count := 0
-	var remainder int
-	for i:=1;i<=b*b*b*b*b;i++{
-		if n < b{
-			remainder = n
-			Remainders = append(Remainders,remainder)
-		}else{
-			remainder = n % b
-			Remainders = append(Remainders,remainder)
-		}
-		n = int(n/b)
-		count++
-		if n == 0{
-			break
-		}
+func Base(number int, base int)[]int{
+	result := []int{}
+	if number == 0{
+		return result
 	}
-	fmt.Println(Remainders[0])
-	for i := len(Remainders)-1;i <= 0;i--{
-		R_Remainders = append(R_Remainders,Remainders[i])
-		fmt.Println(R_Remainders)
-	}
-	return R_Remainders,count
+	result = append(result,number%base)
+	return Base(int(number / base),base)
 }
-
