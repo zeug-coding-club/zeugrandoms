@@ -18,4 +18,4 @@ function occur(number, digit){
   }
   return numberoftimes
 }
-console.log(occur(111111111123344, 1))
+console.log(occur(11123344, 1))
