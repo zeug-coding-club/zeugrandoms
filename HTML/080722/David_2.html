@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Please fill the form</h1>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1">
+
+        </div>
+        <div>
+            <label for="Date">DOB</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label>
+                Password
+                <input type="password" name="password" id="password" required> 
+            </label>
+        </div>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
